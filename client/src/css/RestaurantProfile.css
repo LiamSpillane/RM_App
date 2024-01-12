@@ -1,0 +1,33 @@
+/* Consumer Profile */
+.res-profile {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.res-header h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 -5px 0; 
+  font-size: 2em; 
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+}
+.res-header p {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 0
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
